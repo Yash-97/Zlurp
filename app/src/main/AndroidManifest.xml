@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yashsinghania.zlurp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/rest1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/rest1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <meta-data android:name="unityplayer.UnityPlayerActivity" android:value="true" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="unity.build-id" android:value="3245f250-6ced-41d8-a69f-9dca7caa0fdb" />
+        <meta-data android:name="unity.splash-mode" android:value="0" />
+        <meta-data android:name="unity.splash-enable" android:value="True" />
+        <meta-data android:name="android.max_aspect" android:value="2.1" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main4Activity"></activity>
+    </application>
+
+</manifest>
